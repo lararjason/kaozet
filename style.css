@@ -2,4 +2,27 @@ body {
   background: url("https://www.shutterstock.com/image-photo/gray-cat-knife-fork-eats-600w-1910733118.jpg");
 }
 
+#YoU-hAvE_aViRuS {
+  font-size: 100px;
+  color: red;
+  text-align: center;
+  margin-top: 200px;
+  font-family: "Courier New", Courier, monospace;
+  background: blue;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  animation: blink 0.5s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
