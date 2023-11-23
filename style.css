@@ -25,4 +25,53 @@ body {
   }
 }
 
+#cookie-container {
+  border: 1px solid #ccc;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: #ededed;
+  width: 50%;
+  font-family: 'Noto Sans', sans-serif;
+  padding: 10px;
+  box-shadow: 5px 5px 10px #ccc;
+}
+
+#cookie-accept-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#cookie-disable-button {
+    color: grey;
+    border: 1px solid grey;
+    cursor: not-allowed;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#cookies-info {
+    cursor: pointer;
+}
+
+#cookie-title:hover::after {
+    content: "By cookies, the following are included; keyloggers, GPS tracking, device recognition, beacons, and fingerprinting.";
+    display: block;
+    opacity: 0.90;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    float: right;
+    border-radius: 5px;
+    width: 250px;
+    z-index: 2;
+}
+
 /*# sourceMappingURL=style.css.map */
