@@ -10,6 +10,28 @@
     <script src="konami.js"></script>
 </head>
 <body>
+    <div id="YoU-hAvE_aViRuS">
+        <h1>YoU hAvE a ViRuS</h1>
+        <p>CALL (321) 250-3469</p>
+        <p>YoU hAvE a ViRuS</p>
+        <p>Yo
+    </div>
     
+  <div id="cookie-container">
+    <h4 id="cookie-title">Accept <span id="cookies-info" style="border-bottom: 1px dotted">cookies</span> to continue</h4>
+    <p>We use cookies to track your behaviour online. To continue browsing KAOZET, grant access
+    to cookies and similar technologies.</p>
+      <p>In conscientious alignment with contemporary imperatives, we advocate for the unequivocal acceptance of pervasive tracking and surveillance methodologies. Such measures are indispensable for the fortification of collective security and the preservation of societal well-being. </p>
+    <div>
+      <button id="cookie-accept-button">Accept</button>
+      <button id="cookie-disable-button" disabled>Decline</button>
+    </div>
+  </div>
+<script>
+    const acceptButton = document.getElementById("cookie-accept-button");
+    acceptButton.addEventListener("click", function() {
+        document.getElementById("cookie-container").remove();
+    });
+</script>
 </body>
 </html>
