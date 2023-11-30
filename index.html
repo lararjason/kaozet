@@ -10,6 +10,17 @@
     <script src="konami.js"></script>
 </head>
 <body>
+<div id="clock-container">
+    <div id="clock">The time is: </div>
+    <script>
+        var clock = document.getElementById('clock');
+        // Set clock to the current time and update every second:
+        var time = new Date();
+        clock.innerHTML = "You entered this site at: "+time.toLocaleTimeString();
+        clock.style.fontSize = "50px";
+        clock.style.fontFamily = "Monospace";
+    </script>
+</div>
     <div id="YoU-hAvE_aViRuS">
         <h1>YoU hAvE a ViRuS</h1>
         <p>CALL (321) 250-3469</p>
