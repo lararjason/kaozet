@@ -10,8 +10,7 @@ function funny(){
             //and long live vimeo o7
     const video = document.createElement("iframe")
     video.src = "https://player.vimeo.com/video/375468729?autoplay=1&loop=1&autopause=0"
-    video.onload = "this.style.opacity = '0';"
-    video.style = "display: block; margin: 0 auto; text-align: center; width: 960px; height: 540px; z-index: 2000 "
+    video.style = "display: block; margin: 0 auto; text-align: center; width: 960px; height: 540px; z-index: 2000 ; top: 70px; position: absolute"
     document.body.append(video)
     console.log("here")
 
