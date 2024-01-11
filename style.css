@@ -1,6 +1,14 @@
 body {
   background: url("https://www.shutterstock.com/image-photo/gray-cat-knife-fork-eats-600w-1910733118.jpg");
 }
+.fadeout {
+  animation: fadeOut 5s;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
 
 #YoU-hAvE_aViRuS {
   font-size: 100px;
